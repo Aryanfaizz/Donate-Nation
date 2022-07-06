@@ -1,0 +1,651 @@
+body {
+
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgba(203, 136, 11, 0.781);
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(26, 26, 26));
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-position: center;
+
+}
+
+
+
+.Top-Banner {
+
+    text-align: center;
+    background-image: url(top-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: fill;
+    background-size: 100%;
+    box-shadow: inset 0px 0px 80px 50px rgb(0, 0, 0);
+    text-shadow: 5px 5px 20px black;
+
+
+}
+
+.Top-Section {
+
+
+    padding-top: 150px;
+
+}
+
+.Heading {
+
+    font-size: 30px;
+
+    line-height: 20px;
+    color: rgb(255, 255, 255);
+
+
+}
+
+.Happiness-Head {
+
+    padding-top: 70px;
+
+}
+
+
+#Happiness {
+
+    color: rgb(255, 102, 0);
+    font-size: 70px;
+
+
+
+}
+
+.Happiness-Head-2 {
+
+    padding-top: 20px;
+
+
+}
+
+
+
+
+
+.top-paragraph {
+
+    line-height: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.92);
+    text-shadow: 10px 10px 10 px rgb(0, 0, 0);
+    box-shadow: 0px 0px 500px 9px rgb(0, 0, 0);
+    background-color: hsla(0, 0%, 0%, 0.532);
+
+}
+
+#donate {
+
+    color: rgb(43, 255, 0);
+    font-size: 100px;
+
+}
+
+
+.Donate-Button {
+
+    text-decoration: none;
+    background-color: rgb(255, 223, 135);
+    padding: 30px 50px;
+    margin: 790px;
+    margin-bottom: 300px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-image: linear-gradient(rgb(27, 174, 36), rgb(17, 124, 33));
+    font-size: 25px bold;
+    position: relative;
+    top: 20px;
+    size: 20px;
+    text-shadow: 0px 0px 0px;
+    font-size: 30px;
+
+}
+
+.Donate-Button:hover {
+
+    opacity: 0.8;
+
+}
+
+
+
+
+
+
+
+
+/* MIDDLE SECTION STARTS FROM HERE*/
+
+
+
+
+
+.Donate-Today {
+
+    color: aliceblue;
+    padding-top: 100px;
+
+    font-size: 50px;
+
+    text-align: center;
+
+    line-height: 30px;
+}
+
+.Today {
+
+    color: rgb(43, 255, 0);
+    text-align: center;
+
+}
+
+
+.Mid-Paragraph {
+
+    color: aliceblue;
+    padding-top: 40px;
+    padding-left: 400px;
+    padding-right: 400px;
+    margin-right: 0px;
+    font-size: 25px;
+    text-align: center;
+    line-height: 30px;
+
+}
+
+
+
+
+
+/*Amount Selection Section*/
+
+
+
+.Amount-Section {
+
+    margin: 100px;
+    margin-top: 190px;
+    padding: 100px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 150px 0px black;
+
+}
+
+
+
+.Amount-Button-1 {
+
+    color: rgb(100, 100, 100);
+    text-align: center;
+    font-size: 40px;
+    margin-left: 0x;
+
+}
+
+.A-1-Division {
+
+    color: aliceblue;
+    padding: 30px;
+    width: 50%;
+
+    border-radius: 5%;
+    margin: 20px;
+    background-color: rgb(247, 83, 8);
+    background-image: linear-gradient(rgb(249, 249, 249), rgb(219, 217, 217));
+}
+
+.A-1-Division:hover {
+
+    opacity: 0.8;
+
+}
+
+.Amount-Button-2 {
+
+    color: rgb(100, 100, 100);
+    text-align: center;
+    font-size: 40px;
+    margin-left: 0x;
+
+}
+
+.A-2-Division {
+
+    color: aliceblue;
+    width: 50%;
+    padding: 30px;
+
+    border-radius: 5%;
+    margin: 20px;
+    background-color: rgb(136, 6, 6);
+    background-image: linear-gradient(rgb(249, 249, 249), rgb(248, 248, 248));
+}
+
+.A-2-Division:hover {
+
+    opacity: 0.8;
+
+
+}
+
+
+.Donate-input {
+
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    border: none;
+    padding-bottom: 0px;
+    border-bottom: 3px solid rgb(67, 67, 67);
+    margin-left: 520px;
+    margin-right: 520px;
+    text-align: center;
+}
+
+.input-donate {
+
+    border: 0px;
+    padding: 50px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    background-color: rgba(26, 26, 26, 0.123);
+
+}
+
+::placeholder {
+    font: bolder;
+    color: rgb(118, 118, 118);
+    padding-left: 8px;
+    font-size: 17px;
+    background-color: rgba(0, 0, 0, 0);
+    opacity: 8;
+    border: 0px;
+
+}
+
+
+.Donate-Now {
+    color: rgb(231, 231, 231);
+    text-decoration: none;
+    background-color: rgb(255, 223, 135);
+    padding: 10px 50px;
+    border-radius: 10px;
+    background-image: linear-gradient(rgb(33, 226, 62), rgb(25, 114, 15));
+    font-size: 25px bold;
+    position: relative;
+    top: 20px;
+    left: 700px;
+    position: relative;
+
+}
+
+.Donate-Now:hover {
+
+    opacity: 0.8;
+
+}
+
+
+/* Donate Plan Header Section  */
+
+
+.Donation-Plan-Header {
+
+    text-align: center;
+    color: aliceblue;
+    padding-top: 150px;
+    font-size: 50px;
+
+
+
+}
+
+.dp {
+
+    color: rgb(16, 231, 16);
+
+}
+
+.Plan-Section {
+
+    display: flex;
+    margin: 5px;
+    gap: 0%;
+
+}
+
+
+.supporting-brand {
+
+    padding-left: 90px;
+}
+
+
+.food-Division {
+
+    color: aliceblue;
+    width: 50%;
+    padding-right: 30px;
+    padding-left: 50px;
+    box-shadow: 10px 10px 50px rgb(0, 0, 0);
+    border-radius: 5%;
+    margin: 5%;
+    background-color: rgb(104, 0, 48);
+    background-image: linear-gradient(rgb(56, 0, 25), rgb(104, 0, 48));
+}
+
+.food-Division:hover {
+
+    opacity: 0.8;
+
+}
+
+.food-Header {
+
+    color: aliceblue;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.food-icon {
+
+    padding-left: 130px;
+
+}
+
+.fp-img-1 {
+
+    padding-left: 50px;
+    padding-bottom: 0px;
+    padding-top: 20px;
+    width: 60%;
+
+}
+
+.food-description {
+
+    color: rgb(255, 117, 140);
+    text-align: justify;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 15px;
+
+
+}
+
+
+.shelter-Division {
+
+    color: aliceblue;
+    width: 50%;
+    padding-right: 50px;
+    padding-left: 60px;
+    box-shadow: 10px 10px 50px rgb(0, 0, 0);
+    border-radius: 5%;
+    margin: 5%;
+    background-color: rgb(0, 82, 54);
+    background-image: linear-gradient(rgb(0, 54, 36), rgb(33, 116, 74));
+}
+
+.shelter-Division:hover {
+
+    opacity: 0.8;
+
+}
+
+
+.shelter-header {
+
+    color: aliceblue;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.shelter-icon {
+
+    padding-left: 140px;
+
+}
+
+.shelter-img {
+
+    width: 25%;
+    padding-left: 120px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+
+}
+
+.shelter-paragraph {
+
+    color: rgb(93, 236, 129);
+    text-align: justify;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 15px;
+
+
+}
+
+
+.ten-Division {
+
+    color: aliceblue;
+    width: 50%;
+    padding-right: 30px;
+    padding-left: 50px;
+    box-shadow: 10px 10px 50px rgb(0, 0, 0);
+    border-radius: 5%;
+    margin: 5%;
+    background-color: rgb(104, 0, 48);
+    background-image: linear-gradient(rgb(116, 61, 9), rgb(185, 83, 24));
+}
+
+.ten-Division:hover {
+
+    opacity: 0.8;
+
+}
+
+.edu-img {
+    padding-top: 10px;
+    padding-left: 140px;
+    width: 20%;
+
+}
+
+.ten-Header {
+
+    color: aliceblue;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.ten-img-1 {
+
+    padding-left: 70px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 50%;
+
+}
+
+.ten-description {
+
+    color: rgb(241, 134, 33);
+    text-align: justify;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 15px;
+
+
+}
+
+.Support-Heading {
+
+    text-align: center;
+    color: rgb(218, 218, 218);
+    padding-top: 50px;
+    padding-left: 30px;
+    font-size: 40px;
+
+}
+
+.Amount-Section-Info {
+
+    display: flex;
+    margin: 100px;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 10px 10px 150px 0px black;
+
+}
+
+
+.Amount-Section-1 {
+
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+
+
+}
+
+
+.Stats {
+
+
+    width: 500px;
+    text-align: center;
+    padding-left: 00px;
+
+}
+
+.fund {
+
+    color: rgb(28, 199, 22);
+
+
+}
+
+
+.Amount-Section-Stats {
+
+    margin: 10px;
+    margin-top: 150px;
+    padding-top: 2px;
+    padding-bottom: 40px;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 150px 0px black;
+
+}
+
+
+
+.don-rec {
+
+    color: rgb(212, 211, 211);
+    font-size: 25px;
+
+
+
+}
+
+.Amount-Section-1-1-1 {
+
+    display: flex;
+    margin: 10px;
+    padding: 50px;
+    margin-right: 500px;
+    margin-left: 500px;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 10px 10px 150px 0px black;
+    background-color: rgb(26, 26, 26);
+
+}
+
+form {
+
+
+    display: flex;
+
+
+
+}
+
+form input {
+
+    background-color: rgba(218, 216, 216, 0.712);
+    border-radius: 2px 0px 0px 2px;
+    text-align: left;
+    width: 500px;
+    padding: 20px 10px;
+    border: 0px;
+}
+
+.Email-Sec {
+
+    padding: 20px;
+
+
+}
+
+
+
+#submit {
+
+    background-image: linear-gradient(rgb(43, 178, 26), rgb(9, 104, 31));
+    width: 100px;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    border: 0px;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.footer {
+
+    padding-top: 150px;
+    padding-bottom: 150px;
+    margin-top: 200px;
+    margin-bottom: 0px;
+    border: 0px;
+    background-color: rgba(0, 0, 0, 0.311);
+
+}
+
+
+.Footer-Header {
+
+    margin: 0px;
+    text-align: center;
+    padding-bottom: 0px;
+    color: aliceblue;
+
+}
+
+.again {
+
+    color: rgb(18, 219, 18);
+
+}
